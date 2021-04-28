@@ -28,7 +28,7 @@ startTime = time.time()  # On aura besoin de cette variable pour déterminer le
             if (conn == 0):
                 print('Port %d: Service %s OPEN' % (i, getservbyport(i)))
         print('Time taken:', time.time() - startTime)
-        s.close()  # On ferme la socket
+        s.close()  # inutile de la laisser ouverte XD
     def ping_scan():
         net = input("Enter the Network Address: ")
         net1 = net.split('.')
