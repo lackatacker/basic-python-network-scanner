@@ -8,7 +8,7 @@ from datetime import datetime
 from queue import Queue
 startTime = time.time()  # On aura besoin de cette variable pour déterminer le
 # Temps d'éxecution
-
+# comments might contain typing mistakes ;)
 #if __name__ == '__main__':# Si le programme est appelé en invoke il sera éxecuté et pas en import
     # L'adresse IP privée à scanner
     def socket_scan():
